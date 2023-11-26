@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.espace {
+    padding-top: 20px;
+}
+
+.espace2 {
+    padding-top: 60px;
+}
+
+.button {
+    position: relative;
+    background-color: #959b98;
+    border: none;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.button:after {
+    content: "";
+    background: #9d939386;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+.container-fluid {
+    width: 100%;
+
+}
+
+
+
+header {
+    padding-top: 20px;
+    height: 120px;
+    background-color: rgba(109, 104, 104, 0.963);
+}
+
+header .col {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header .col img {
+    height: 120px;
+    width: 200px;
+}
+
+header .nav {
+    display: flex;
+}
+
+header .nav li {
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 13px;
+    border-bottom: 1px solid white;
+    transition: 0.4s;
+}
+
+header .nav li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+header .nav li a:hover {
+    color: black;
+}
+
+header .nav li:hover {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 8px;
+    padding: 5px 15px;
+    color: black;
+}
+header .col h3 {
+    font-size: 18px;
+    color: white;
+
+}
+
+
+header .burger {
+    display: none;
+}
+
+header .burger svg {
+    color: white;
+}
+
+.div {
+    min-height: 550px;
+    background: url(img/technology-785742_1920.jpg)fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div .col {
+    min-height: 300px;
+    border: 3px solid black;
+    border: none;
+}
+
+.div .box {
+    background-color: rgba(45, 43, 43, 0.312);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div .box h3 {
+    font-size: 25px;
+    color: orange;
+}
+
+.div .box p {
+    font-size: 15px;
+}
+
+
+.div div img {
+    height: 350px;
+    width: 300px;
+}
+
+.div-2 {
+    min-height: 250px;
+    background: url(img/fractal-1405730_1920.jpg)fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-2 .lorem {
+    background-color: rgba(45, 43, 43, 0.606);
+    border-radius: 20px;
+}
+
+.div-2 svg {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.div-2 #a {
+    background-color: rgb(32, 89, 187);
+}
+
+.div-2 #b {
+    background-color: rgb(78, 10, 64);
+}
+
+.div-2 #c {
+    background-color: rgb(18, 154, 40);
+}
+
+.div-3 {
+    min-height: 650px;
+    background: url(img/fractal-1405730_1920.jpg)fixed no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.div-3 .box {
+    width: 350px;
+    height: 430px;
+    padding: 30px;
+    background-color: rgb(185, 181, 181);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(108, 103, 103, 0.432), 0 6px 20px 0 rgba(139, 133, 133, 0.202);
+    text-align: center;
+}
+
+.div-3 .box img {
+    height: 120px;
+    width: 230px;
+}
+
+.div-4 {
+    min-height: 500px;
+    background: url(img/fractal-1405730_1920.jpg)fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-4 .a {
+    background-color: rgba(45, 43, 43, 0.606);
+    border-radius: 20px;
+}
+
+.div-4 h1 {
+    color: white;
+
+}
+
+.div-4 p {
+    color: white;
+}
+
+
+
+.div-4 .image img {
+    height: 300px;
+    text-align: end;
+}
+
+.div-5 {
+    min-height: 500px;
+    padding-top: 50px;
+    background: url(img/technology-785742_1920.jpg)fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-5 .container {
+    padding: 110px 0 50px 0;
+    min-height: 350px;
+width: 70%;
+}
+
+.div-5 .formulaire {
+    padding-top: 30px;
+}
+
+.div-5 iframe {
+    height: 300px;
+}
+
+
+
+
+.div-5 .formulaire .form {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.611);
+    outline: none;
+    border: 1px solid #000000;
+    padding: 15px;
+
+}
+
+.div-5 input {
+    height: 30px;
+
+}
+
+.div-5 input::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.div-5 input:placeholder-shown {
+    border: 1px solid #000000;
+}
+
+
+
+
+
+.div-6 {
+    min-height: 400px;
+    background: url(img/technology-785742_1920.jpg)fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    padding-bottom: 50px;
+}
+
+.back {
+    width: 70%;
+    padding: 30px;
+    background-color: rgba(109, 104, 104, 0.331);
+    border-radius: 15px;
+
+}
+
+.h3 {
+    color: orangered;
+    font-weight: bold;
+}
+
+.pro_espace {
+    padding-top: 200px;
+}
+
+.div-7 {
+    min-height: 400px;
+    background-color: rgba(105, 99, 99, 0.963);
+    padding-bottom: 50px;
+}
+footer{
+    min-height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header .nav {
+        display: none;
+        background-color: rgba(109, 104, 104, 0.963);
+        position: absolute;
+        top: 120px;
+        right: 0;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+        color: black;
+    }
+
+    header .nav li {
+        width: 100%;
+        display: block;
+        height: 50px;
+    }
+
+    header .nav li a {
+        color: rgb(255, 255, 255);
+
+    }
+
+
+    header .burger {
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+        font-size: 2em;
+        margin-right: 12px;
+        display: block;
+    }
+
+    .div-5 .container {
+        background: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .div-5 .sky {
+        margin-top: 30px;
+    }
+
+    .div div img {
+        height: 200px;
+        margin: 30px 0;
+    }
+
+    .div-4 .image img {
+        height: 200px;
+        margin: 30px 0;
+    }
+
+    .pro_espace {
+        padding-top: 0px;
+    }
+
+    .back {
+        width: 100%;
+        padding: 5px;
+
+    }
+}
