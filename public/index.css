@@ -297,7 +297,10 @@ header .burger svg {
     color: #000000;
     opacity: 1;
 }
-
+.div-5 textarea::placeholder {
+    color: #000000;
+    opacity: 1;
+}
 .div-5 input:placeholder-shown {
     border: 1px solid #000000;
 }
